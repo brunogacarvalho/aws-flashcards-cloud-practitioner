@@ -9,15 +9,15 @@ Aplicação interativa de flashcards para apoiar os estudos para a certificaçã
 
 ## Conteúdo
 
-O projeto reúne 350 cartões de estudo, organizados nos quatro domínios da certificação:
+O projeto reúne 328 cartões de estudo, organizados nos quatro domínios da certificação:
 
 | Domínio | Cartões |
 |---|---:|
-| Conceitos da nuvem | 70 |
-| Segurança e conformidade | 85 |
-| Tecnologia e serviços AWS | 125 |
+| Conceitos da nuvem | 68 |
+| Segurança e conformidade | 82 |
+| Tecnologia e serviços AWS | 108 |
 | Cobrança, preços e suporte | 70 |
-| **Total** | **350** |
+| **Total** | **328** |
 
 ## Funcionalidades
 
