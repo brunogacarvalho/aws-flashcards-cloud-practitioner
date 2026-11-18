@@ -1,0 +1,331 @@
+
+[
+  {
+    "question": "O que é o modelo de responsabilidade compartilhada da AWS?",
+    "answer": "A AWS protege a infraestrutura da nuvem; o cliente protege o que configura e executa nela."
+  },
+  {
+    "question": "O que significa segurança DA nuvem?",
+    "answer": "Responsabilidade da AWS: proteger a infraestrutura física, rede, hardware e instalações."
+  },
+  {
+    "question": "O que significa segurança NA nuvem?",
+    "answer": "Responsabilidade do cliente: proteger dados, identidades, sistemas operacionais e configurações, conforme o serviço utilizado."
+  },
+  {
+    "question": "O que é o AWS IAM?",
+    "answer": "Serviço que controla identidades e permissões de acesso aos recursos da AWS."
+  },
+  {
+    "question": "Qual é a função de um usuário IAM?",
+    "answer": "Representar uma identidade que pode autenticar e acessar recursos AWS conforme suas permissões."
+  },
+  {
+    "question": "O que é uma política IAM?",
+    "answer": "Documento JSON que define permissões, especificando ações, recursos e condições."
+  },
+  {
+    "question": "O que é o princípio do menor privilégio?",
+    "answer": "Conceder somente as permissões necessárias para realizar uma tarefa."
+  },
+  {
+    "question": "Para que serve uma função IAM (IAM Role)?",
+    "answer": "Conceder permissões temporárias a usuários, aplicações ou serviços que assumem a função."
+  },
+  {
+    "question": "O que é autenticação multifator (MFA)?",
+    "answer": "Camada adicional de segurança que exige mais de uma forma de verificação da identidade."
+  },
+  {
+    "question": "Por que não se deve usar a conta root diariamente?",
+    "answer": "Ela possui acesso amplo à conta. Deve ser protegida e reservada para tarefas que exigem seu uso."
+  },
+  {
+    "question": "O que é o AWS IAM Identity Center?",
+    "answer": "Serviço para gerenciar o acesso de usuários a múltiplas contas AWS e aplicações."
+  },
+  {
+    "question": "Para que serve o AWS Organizations?",
+    "answer": "Gerenciar centralmente várias contas AWS, aplicar políticas e consolidar faturamento."
+  },
+  {
+    "question": "O que são políticas de controle de serviço (SCPs)?",
+    "answer": "Políticas do AWS Organizations que definem permissões máximas disponíveis nas contas ou unidades organizacionais."
+  },
+  {
+    "question": "Para que serve o AWS KMS?",
+    "answer": "Criar e gerenciar chaves criptográficas usadas para criptografar e descriptografar dados."
+  },
+  {
+    "question": "O que é criptografia em repouso?",
+    "answer": "Proteção dos dados armazenados por meio de criptografia."
+  },
+  {
+    "question": "O que é criptografia em trânsito?",
+    "answer": "Proteção dos dados durante a transmissão entre sistemas, geralmente usando TLS."
+  },
+  {
+    "question": "Para que serve o AWS CloudTrail?",
+    "answer": "Registrar atividades e chamadas de API realizadas na conta AWS para auditoria."
+  },
+  {
+    "question": "Para que serve o Amazon GuardDuty?",
+    "answer": "Detectar ameaças e atividades potencialmente maliciosas nos ambientes AWS."
+  },
+  {
+    "question": "Para que serve o AWS Artifact?",
+    "answer": "Fornecer acesso sob demanda a relatórios de conformidade e documentos de segurança da AWS."
+  },
+  {
+    "question": "O que é conformidade na nuvem?",
+    "answer": "Atender a requisitos legais, regulatórios e padrões de segurança aplicáveis ao ambiente."
+  },
+  {
+    "question": "O que é o AWS Shield?",
+    "answer": "Serviço de proteção contra ataques distribuídos de negação de serviço (DDoS)."
+  },
+  {
+    "question": "Qual é a diferença entre AWS Shield Standard e Advanced?",
+    "answer": "Standard oferece proteção básica automática contra DDoS; Advanced oferece proteção ampliada e recursos adicionais."
+  },
+  {
+    "question": "Para que serve o AWS WAF?",
+    "answer": "Filtrar e controlar solicitações HTTP e HTTPS para proteger aplicações web."
+  },
+  {
+    "question": "Qual é a diferença entre AWS WAF e AWS Shield?",
+    "answer": "WAF filtra tráfego web; Shield protege contra ataques DDoS."
+  },
+  {
+    "question": "Para que serve o Amazon Inspector?",
+    "answer": "Identificar vulnerabilidades e exposições em workloads, como instâncias EC2, imagens de contêiner e funções Lambda."
+  },
+  {
+    "question": "Para que serve o Amazon Macie?",
+    "answer": "Descobrir e proteger dados confidenciais, como informações pessoais, armazenados no Amazon S3."
+  },
+  {
+    "question": "Para que serve o AWS Security Hub?",
+    "answer": "Centralizar e consolidar descobertas de segurança e verificações de conformidade em ambientes AWS."
+  },
+  {
+    "question": "Para que serve o Amazon Detective?",
+    "answer": "Investigar e analisar possíveis problemas de segurança usando dados relacionados às atividades dos recursos."
+  },
+  {
+    "question": "Para que serve o AWS Config?",
+    "answer": "Avaliar, auditar e acompanhar configurações e alterações dos recursos AWS."
+  },
+  {
+    "question": "Qual é a diferença entre AWS CloudTrail e AWS Config?",
+    "answer": "CloudTrail registra atividades e chamadas de API; Config acompanha configurações e alterações dos recursos."
+  },
+  {
+    "question": "Para que serve o Amazon CloudWatch na segurança?",
+    "answer": "Monitorar métricas, logs e eventos que podem ajudar a identificar comportamentos anormais."
+  },
+  {
+    "question": "O que é o AWS Trusted Advisor?",
+    "answer": "Serviço que fornece recomendações para melhorar ambientes AWS, incluindo verificações relacionadas à segurança."
+  },
+  {
+    "question": "O que é o AWS Security Incident Response?",
+    "answer": "Serviço que ajuda a preparar, responder e recuperar-se de incidentes de segurança na AWS."
+  },
+  {
+    "question": "O que é o AWS Secrets Manager?",
+    "answer": "Serviço para armazenar, gerenciar e recuperar segredos, como senhas e chaves de API."
+  },
+  {
+    "question": "Para que serve a rotação automática de segredos?",
+    "answer": "Atualizar periodicamente credenciais para reduzir o risco associado a segredos expostos ou antigos."
+  },
+  {
+    "question": "Qual é a diferença entre AWS Secrets Manager e AWS Systems Manager Parameter Store?",
+    "answer": "Secrets Manager é voltado ao gerenciamento de segredos e rotação; Parameter Store armazena parâmetros e também pode guardar valores seguros."
+  },
+  {
+    "question": "Para que serve o AWS Certificate Manager (ACM)?",
+    "answer": "Provisionar, gerenciar e renovar certificados SSL/TLS usados para proteger conexões."
+  },
+  {
+    "question": "O que é o AWS CloudHSM?",
+    "answer": "Serviço que fornece módulos de segurança de hardware dedicados para operações criptográficas."
+  },
+  {
+    "question": "Qual é a diferença entre AWS KMS e AWS CloudHSM?",
+    "answer": "KMS oferece gerenciamento de chaves integrado aos serviços AWS; CloudHSM fornece hardware criptográfico dedicado."
+  },
+  {
+    "question": "O que é criptografia simétrica?",
+    "answer": "Método que utiliza a mesma chave para criptografar e descriptografar dados."
+  },
+  {
+    "question": "O que é criptografia assimétrica?",
+    "answer": "Método que utiliza um par de chaves relacionadas: uma pública e outra privada."
+  },
+  {
+    "question": "O que é hashing?",
+    "answer": "Processo que transforma dados em um resumo de tamanho definido, geralmente usado para verificar integridade."
+  },
+  {
+    "question": "O que é tokenização?",
+    "answer": "Substituição de dados sensíveis por valores alternativos que não revelam diretamente a informação original."
+  },
+  {
+    "question": "O que é segurança de rede na AWS?",
+    "answer": "Conjunto de controles que protegem a comunicação e limitam o tráfego entre recursos e redes."
+  },
+  {
+    "question": "Para que serve um security group na AWS?",
+    "answer": "Controlar o tráfego de entrada e saída associado a recursos, como instâncias EC2."
+  },
+  {
+    "question": "Como funcionam as regras de um security group?",
+    "answer": "São regras permitidas; o tráfego não autorizado por elas é bloqueado."
+  },
+  {
+    "question": "O que é uma Network ACL (NACL)?",
+    "answer": "Camada de controle de tráfego de entrada e saída aplicada a uma sub-rede da VPC."
+  },
+  {
+    "question": "Qual é a diferença entre security groups e Network ACLs?",
+    "answer": "Security groups atuam no nível da interface de rede e são stateful; NACLs atuam na sub-rede e são stateless."
+  },
+  {
+    "question": "O que significa dizer que um security group é stateful?",
+    "answer": "As respostas ao tráfego permitido são aceitas automaticamente, sem exigir uma regra específica de retorno."
+  },
+  {
+    "question": "O que significa dizer que uma Network ACL é stateless?",
+    "answer": "O tráfego de retorno precisa ser permitido por regras próprias."
+  },
+  {
+    "question": "Para que serve uma VPN na AWS?",
+    "answer": "Criar uma conexão criptografada entre redes ou usuários e ambientes na AWS."
+  },
+  {
+    "question": "O que é o AWS Site-to-Site VPN?",
+    "answer": "Serviço que conecta uma rede local a uma Amazon VPC por meio de uma conexão VPN."
+  },
+  {
+    "question": "Para que serve o AWS Client VPN?",
+    "answer": "Permitir que usuários se conectem remotamente às redes e recursos AWS por uma VPN."
+  },
+  {
+    "question": "O que é o AWS Direct Connect?",
+    "answer": "Serviço que estabelece uma conexão de rede privada e dedicada entre um ambiente local e a AWS."
+  },
+  {
+    "question": "Qual é a diferença entre VPN e AWS Direct Connect?",
+    "answer": "VPN utiliza conexões criptografadas pela internet; Direct Connect oferece conectividade privada dedicada."
+  },
+  {
+    "question": "Para que serve o AWS PrivateLink?",
+    "answer": "Permitir acesso privado a serviços e recursos sem precisar expor o tráfego à internet pública."
+  },
+  {
+    "question": "O que é o AWS Network Firewall?",
+    "answer": "Serviço gerenciado de firewall para proteger e controlar o tráfego de rede em VPCs."
+  },
+  {
+    "question": "Para que serve o Amazon VPC?",
+    "answer": "Criar uma rede virtual isolada na AWS, com controle sobre endereçamento IP, sub-redes e roteamento."
+  },
+  {
+    "question": "O que é o princípio de defesa em profundidade?",
+    "answer": "Utilizar várias camadas de controles de segurança para reduzir o risco de comprometimento."
+  },
+  {
+    "question": "Por que é importante manter sistemas e softwares atualizados?",
+    "answer": "Para corrigir vulnerabilidades conhecidas e reduzir oportunidades de exploração."
+  },
+  {
+    "question": "O que é gerenciamento de vulnerabilidades?",
+    "answer": "Processo de identificar, avaliar, priorizar e corrigir falhas de segurança."
+  },
+  {
+    "question": "O que é uma ameaça cibernética?",
+    "answer": "Qualquer situação ou atividade capaz de comprometer sistemas, dados ou serviços."
+  },
+  {
+    "question": "O que é um ataque de phishing?",
+    "answer": "Tentativa de enganar pessoas para obter informações confidenciais ou induzi-las a realizar ações inseguras."
+  },
+  {
+    "question": "O que é um ataque DDoS?",
+    "answer": "Ataque que utiliza múltiplas fontes para sobrecarregar um serviço e prejudicar sua disponibilidade."
+  },
+  {
+    "question": "O que é o princípio de Zero Trust?",
+    "answer": "Modelo de segurança que não confia automaticamente em nenhuma identidade ou dispositivo e exige verificação contínua."
+  },
+  {
+    "question": "O que é federação de identidades?",
+    "answer": "Permitir que usuários acessem recursos AWS utilizando identidades gerenciadas por um provedor externo."
+  },
+  {
+    "question": "O que é single sign-on (SSO)?",
+    "answer": "Mecanismo que permite acessar múltiplas aplicações com uma única autenticação."
+  },
+  {
+    "question": "Por que utilizar credenciais temporárias em vez de chaves de acesso permanentes?",
+    "answer": "Porque possuem validade limitada, reduzindo o risco de exposição prolongada de credenciais."
+  },
+  {
+    "question": "O que é uma trilha de auditoria?",
+    "answer": "Registro cronológico de atividades que permite verificar quem realizou ações e quando elas ocorreram."
+  },
+  {
+    "question": "Por que centralizar logs de segurança?",
+    "answer": "Para facilitar monitoramento, investigação, auditoria e identificação de atividades suspeitas."
+  },
+  {
+    "question": "O que é proteção de dados pessoais?",
+    "answer": "Aplicação de controles para evitar acesso, uso, divulgação ou alteração não autorizados de informações pessoais."
+  },
+  {
+    "question": "O que é o princípio de minimização de dados?",
+    "answer": "Coletar e manter apenas os dados necessários para uma finalidade específica."
+  },
+  {
+    "question": "O que é o ciclo de vida de uma chave criptográfica?",
+    "answer": "Etapas de criação, armazenamento, uso, rotação, desativação e exclusão de uma chave."
+  },
+  {
+    "question": "Por que controlar o acesso aos dados armazenados no Amazon S3?",
+    "answer": "Para impedir exposição ou acesso não autorizado a objetos e informações armazenadas."
+  },
+  {
+    "question": "O que é o bloqueio de acesso público do Amazon S3?",
+    "answer": "Conjunto de configurações que ajuda a impedir que buckets e objetos sejam disponibilizados publicamente."
+  },
+  {
+    "question": "O que é o AWS Control Tower?",
+    "answer": "Serviço que ajuda a configurar e governar um ambiente AWS com múltiplas contas seguindo boas práticas."
+  },
+  {
+    "question": "O que são controles preventivos no AWS Control Tower?",
+    "answer": "Controles que impedem a execução de ações que violariam políticas ou regras estabelecidas."
+  },
+  {
+    "question": "O que são controles detectivos no AWS Control Tower?",
+    "answer": "Controles que identificam alterações ou atividades que podem violar políticas estabelecidas."
+  },
+  {
+    "question": "Qual é a função das certificações e relatórios de conformidade da AWS?",
+    "answer": "Fornecer evidências de avaliações e controles relacionados a padrões e requisitos de conformidade."
+  },
+  {
+    "question": "O que é governança de segurança na nuvem?",
+    "answer": "Definição de políticas, responsabilidades e controles para manter o ambiente seguro e em conformidade."
+  },
+  {
+    "question": "O que é gerenciamento de incidentes de segurança?",
+    "answer": "Processo de preparar, detectar, analisar, conter, erradicar e recuperar-se de incidentes."
+  },
+  {
+    "question": "Por que realizar backups dos dados?",
+    "answer": "Para permitir a recuperação de informações após exclusões acidentais, falhas ou incidentes."
+  }
+]

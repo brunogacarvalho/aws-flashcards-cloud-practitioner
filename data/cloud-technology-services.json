@@ -1,0 +1,435 @@
+
+[
+  {
+    "question": "Qual é a principal função do Amazon EC2?",
+    "answer": "Fornecer capacidade computacional redimensionável na nuvem por meio de instâncias de máquinas virtuais."
+  },
+  {
+    "question": "O que é uma instância EC2?",
+    "answer": "Uma máquina virtual executada na infraestrutura da AWS."
+  },
+  {
+    "question": "Qual serviço permite armazenar objetos, como imagens, vídeos e documentos?",
+    "answer": "Amazon S3."
+  },
+  {
+    "question": "Qual é a principal característica do Amazon S3?",
+    "answer": "Armazenamento de objetos com alta escalabilidade e durabilidade."
+  },
+  {
+    "question": "Qual serviço AWS oferece armazenamento de blocos para instâncias EC2?",
+    "answer": "Amazon EBS."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon EBS e Amazon S3?",
+    "answer": "EBS fornece armazenamento em blocos para volumes de instâncias EC2; S3 armazena objetos em buckets."
+  },
+  {
+    "question": "Qual serviço oferece um banco de dados relacional gerenciado?",
+    "answer": "Amazon RDS."
+  },
+  {
+    "question": "Qual serviço é indicado para bancos de dados relacionais que precisam de alta performance e compatibilidade com mecanismos populares?",
+    "answer": "Amazon RDS, que oferece mecanismos como MySQL, PostgreSQL, MariaDB, Oracle e Microsoft SQL Server."
+  },
+  {
+    "question": "O que é o Amazon Aurora?",
+    "answer": "Um banco de dados relacional compatível com MySQL e PostgreSQL, desenvolvido para a nuvem AWS."
+  },
+  {
+    "question": "Qual serviço AWS é um banco de dados NoSQL gerenciado?",
+    "answer": "Amazon DynamoDB."
+  },
+  {
+    "question": "Quando o Amazon DynamoDB é uma boa escolha?",
+    "answer": "Quando a aplicação precisa de um banco NoSQL gerenciado, com baixa latência e escalabilidade automática."
+  },
+  {
+    "question": "Qual serviço distribui conteúdo globalmente com baixa latência?",
+    "answer": "Amazon CloudFront, uma rede de entrega de conteúdo (CDN)."
+  },
+  {
+    "question": "O que é uma edge location da AWS?",
+    "answer": "Um ponto de presença usado por serviços como CloudFront para entregar conteúdo mais próximo dos usuários."
+  },
+  {
+    "question": "Qual serviço permite criar uma rede virtual isolada na AWS?",
+    "answer": "Amazon VPC."
+  },
+  {
+    "question": "Qual é a função de uma subnet em uma VPC?",
+    "answer": "Dividir a rede virtual em segmentos de endereços IP dentro de uma zona de disponibilidade."
+  },
+  {
+    "question": "Qual componente controla o tráfego de entrada e saída de uma instância EC2?",
+    "answer": "Security Groups, que funcionam como firewalls virtuais associados a recursos."
+  },
+  {
+    "question": "Qual é a diferença entre Security Groups e Network ACLs?",
+    "answer": "Security Groups são associados a recursos e são stateful. Network ACLs atuam no nível da subnet e são stateless."
+  },
+  {
+    "question": "Qual serviço distribui automaticamente o tráfego entre vários destinos?",
+    "answer": "Elastic Load Balancing (ELB)."
+  },
+  {
+    "question": "Qual serviço ajusta automaticamente a quantidade de instâncias EC2 conforme a demanda?",
+    "answer": "EC2 Auto Scaling."
+  },
+  {
+    "question": "Qual é a finalidade do Amazon Route 53?",
+    "answer": "Oferecer serviços de DNS, registro de domínios e roteamento de tráfego."
+  },
+  {
+    "question": "Qual serviço permite executar código sem provisionar ou gerenciar servidores?",
+    "answer": "AWS Lambda."
+  },
+  {
+    "question": "Qual modelo de computação é utilizado pelo AWS Lambda?",
+    "answer": "Computação serverless, na qual a AWS gerencia a infraestrutura de execução."
+  },
+  {
+    "question": "Qual serviço permite criar e gerenciar recursos AWS usando modelos declarativos?",
+    "answer": "AWS CloudFormation."
+  },
+  {
+    "question": "Qual serviço fornece monitoramento de métricas, logs e alarmes?",
+    "answer": "Amazon CloudWatch."
+  },
+  {
+    "question": "Qual serviço permite gerenciar servidores e executar comandos remotamente na AWS?",
+    "answer": "AWS Systems Manager."
+  },
+  {
+    "question": "Qual serviço permite criar, treinar e implantar modelos de machine learning?",
+    "answer": "Amazon SageMaker."
+  },
+  {
+    "question": "Qual serviço AWS oferece ferramentas para reconhecimento de imagens e vídeos?",
+    "answer": "Amazon Rekognition."
+  },
+  {
+    "question": "Qual serviço converte texto em fala?",
+    "answer": "Amazon Polly."
+  },
+  {
+    "question": "Qual serviço converte fala em texto?",
+    "answer": "Amazon Transcribe."
+  },
+  {
+    "question": "Qual serviço permite criar aplicações de análise de dados usando processamento distribuído?",
+    "answer": "Amazon EMR, que oferece uma plataforma gerenciada para frameworks como Apache Spark e Hadoop."
+  },
+  {
+    "question": "O que é o AWS Elastic Beanstalk?",
+    "answer": "Serviço que facilita a implantação e o gerenciamento de aplicações sem exigir o gerenciamento direto da infraestrutura."
+  },
+  {
+    "question": "O que é o Amazon Lightsail?",
+    "answer": "Serviço simplificado para criar aplicações, servidores virtuais e ambientes de desenvolvimento com preços previsíveis."
+  },
+  {
+    "question": "O que é o AWS Outposts?",
+    "answer": "Serviço que disponibiliza infraestrutura e serviços AWS em instalações locais do cliente."
+  },
+  {
+    "question": "O que é o AWS Batch?",
+    "answer": "Serviço que executa e gerencia workloads de computação em lote na AWS."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon EC2 e AWS Lambda?",
+    "answer": "EC2 oferece controle sobre servidores virtuais; Lambda executa código sob demanda sem gerenciar servidores."
+  },
+  {
+    "question": "O que significa computação serverless?",
+    "answer": "Modelo em que o provedor gerencia a infraestrutura e o cliente se concentra no código ou aplicação."
+  },
+  {
+    "question": "O que é um contêiner?",
+    "answer": "Unidade portátil que reúne uma aplicação e suas dependências para execução em diferentes ambientes."
+  },
+  {
+    "question": "Para que serve o Amazon ECS?",
+    "answer": "Orquestrar e gerenciar a execução de contêineres."
+  },
+  {
+    "question": "Para que serve o Amazon EKS?",
+    "answer": "Executar e gerenciar aplicações baseadas em Kubernetes na AWS."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon ECS e Amazon EKS?",
+    "answer": "ECS é o serviço de orquestração de contêineres da AWS; EKS é um serviço gerenciado de Kubernetes."
+  },
+  {
+    "question": "O que é o Amazon ECR?",
+    "answer": "Registro gerenciado para armazenar, gerenciar e distribuir imagens de contêineres."
+  },
+  {
+    "question": "O que é o AWS Fargate?",
+    "answer": "Mecanismo de computação serverless para executar contêineres sem gerenciar servidores."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon ECR e Amazon ECS?",
+    "answer": "ECR armazena imagens de contêineres; ECS orquestra a execução dos contêineres."
+  },
+  {
+    "question": "O que é o Amazon EFS?",
+    "answer": "Serviço de armazenamento de arquivos gerenciado e elástico, acessível por múltiplas instâncias Linux."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon EFS e Amazon EBS?",
+    "answer": "EFS fornece armazenamento de arquivos compartilhado; EBS fornece volumes de blocos para instâncias."
+  },
+  {
+    "question": "O que é o Amazon FSx?",
+    "answer": "Serviço gerenciado que oferece sistemas de arquivos especializados para diferentes necessidades."
+  },
+  {
+    "question": "Para que serve o Amazon S3 Glacier?",
+    "answer": "Armazenar dados para arquivamento de longo prazo com opções de custo reduzido."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon S3 e Amazon S3 Glacier?",
+    "answer": "S3 atende ao armazenamento geral de objetos; as classes Glacier são voltadas principalmente ao arquivamento."
+  },
+  {
+    "question": "O que é o AWS Storage Gateway?",
+    "answer": "Serviço que conecta ambientes locais a serviços de armazenamento na AWS."
+  },
+  {
+    "question": "Para que serve o AWS Backup?",
+    "answer": "Centralizar e automatizar backups de recursos e serviços compatíveis da AWS."
+  },
+  {
+    "question": "O que é o AWS Elastic Disaster Recovery?",
+    "answer": "Serviço que ajuda a recuperar aplicações em caso de falhas ou desastres, replicando servidores para a AWS."
+  },
+  {
+    "question": "O que é o Amazon ElastiCache?",
+    "answer": "Serviço de cache em memória gerenciado para melhorar o desempenho de aplicações."
+  },
+  {
+    "question": "O que é o Amazon DocumentDB?",
+    "answer": "Banco de dados de documentos gerenciado, compatível com workloads do MongoDB."
+  },
+  {
+    "question": "Qual é a principal finalidade do Amazon Redshift?",
+    "answer": "Executar análises e consultas em grandes volumes de dados usando um data warehouse."
+  },
+  {
+    "question": "O que é um data warehouse?",
+    "answer": "Repositório centralizado de dados estruturados utilizado para análises e relatórios."
+  },
+  {
+    "question": "Para que serve o Amazon Athena?",
+    "answer": "Consultar dados armazenados no Amazon S3 usando SQL, sem precisar gerenciar servidores."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon Athena e Amazon Redshift?",
+    "answer": "Athena consulta dados diretamente no S3; Redshift é um data warehouse para análises."
+  },
+  {
+    "question": "O que é o AWS Glue?",
+    "answer": "Serviço de integração de dados que facilita descobrir, preparar, transformar e carregar informações."
+  },
+  {
+    "question": "O que é ETL?",
+    "answer": "Processo de extrair dados, transformá-los e carregá-los em outro destino."
+  },
+  {
+    "question": "Para que serve o Amazon Kinesis?",
+    "answer": "Coletar, processar e analisar dados de streaming em tempo real."
+  },
+  {
+    "question": "O que é o Amazon OpenSearch Service?",
+    "answer": "Serviço gerenciado para pesquisa, análise e visualização de grandes volumes de dados."
+  },
+  {
+    "question": "Para que serve o Amazon Quick?",
+    "answer": "Criar análises, visualizações e painéis de dados com recursos de inteligência de negócios."
+  },
+  {
+    "question": "O que é o Amazon EventBridge?",
+    "answer": "Serviço de barramento de eventos que conecta aplicações e serviços por meio de eventos."
+  },
+  {
+    "question": "Para que serve o Amazon SNS?",
+    "answer": "Serviço de publicação e assinatura para enviar notificações a vários destinatários."
+  },
+  {
+    "question": "Para que serve o Amazon SQS?",
+    "answer": "Serviço de filas de mensagens que permite desacoplar componentes de aplicações."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon SNS e Amazon SQS?",
+    "answer": "SNS distribui mensagens para assinantes; SQS armazena mensagens em filas para serem processadas."
+  },
+  {
+    "question": "O que é o AWS Step Functions?",
+    "answer": "Serviço que coordena workflows e processos distribuídos por meio de etapas automatizadas."
+  },
+  {
+    "question": "Para que serve o Amazon API Gateway?",
+    "answer": "Criar, publicar, proteger e gerenciar APIs para aplicações."
+  },
+  {
+    "question": "O que é uma API?",
+    "answer": "Interface que permite a comunicação e a troca de informações entre aplicações e serviços."
+  },
+  {
+    "question": "Para que serve o Amazon Connect?",
+    "answer": "Criar e gerenciar centrais de atendimento ao cliente na nuvem."
+  },
+  {
+    "question": "O que é o Amazon SES?",
+    "answer": "Serviço de envio e recebimento de e-mails em escala."
+  },
+  {
+    "question": "O que é o AWS Global Accelerator?",
+    "answer": "Serviço que melhora a disponibilidade e o desempenho de aplicações usando a rede global da AWS."
+  },
+  {
+    "question": "O que é o AWS Transit Gateway?",
+    "answer": "Serviço que conecta várias VPCs e redes locais por meio de um ponto central de comunicação."
+  },
+  {
+    "question": "Qual é a diferença entre Amazon CloudFront e AWS Global Accelerator?",
+    "answer": "CloudFront acelera a entrega de conteúdo; Global Accelerator otimiza o tráfego de rede para aplicações."
+  },
+  {
+    "question": "O que é o Amazon Cognito?",
+    "answer": "Serviço que oferece autenticação, autorização e gerenciamento de usuários para aplicações."
+  },
+  {
+    "question": "Para que serve o AWS Directory Service?",
+    "answer": "Permitir o uso de diretórios gerenciados, como Microsoft Active Directory, na AWS."
+  },
+  {
+    "question": "O que é o AWS Resource Access Manager (RAM)?",
+    "answer": "Permite compartilhar recursos AWS entre contas, unidades organizacionais e usuários."
+  },
+  {
+    "question": "O que é o AWS Firewall Manager?",
+    "answer": "Serviço centralizado para configurar e gerenciar regras de segurança em várias contas e recursos."
+  },
+  {
+    "question": "O que é o AWS Cloud Development Kit (CDK)?",
+    "answer": "Framework para definir infraestrutura em nuvem usando linguagens de programação."
+  },
+  {
+    "question": "O que é infraestrutura como código (IaC)?",
+    "answer": "Prática de provisionar e gerenciar infraestrutura por meio de arquivos de configuração ou código."
+  },
+  {
+    "question": "Qual é a diferença entre AWS CloudFormation e AWS CDK?",
+    "answer": "CloudFormation utiliza modelos declarativos; CDK permite definir infraestrutura usando linguagens de programação e gera modelos CloudFormation."
+  },
+  {
+    "question": "O que é o AWS CodeCommit?",
+    "answer": "Serviço de controle de versão baseado em Git para armazenar código-fonte em repositórios privados."
+  },
+  {
+    "question": "O que é o AWS CodeBuild?",
+    "answer": "Serviço de integração contínua que compila código, executa testes e gera artefatos."
+  },
+  {
+    "question": "O que é o AWS CodePipeline?",
+    "answer": "Serviço que automatiza etapas de entrega contínua de software."
+  },
+  {
+    "question": "O que é o AWS X-Ray?",
+    "answer": "Serviço que ajuda a analisar e rastrear solicitações em aplicações distribuídas."
+  },
+  {
+    "question": "O que é o AWS Migration Hub?",
+    "answer": "Serviço que acompanha o progresso de migrações de aplicações para a AWS."
+  },
+  {
+    "question": "Para que serve o AWS Application Migration Service?",
+    "answer": "Migrar servidores físicos, virtuais ou de outras nuvens para a AWS com pouca alteração."
+  },
+  {
+    "question": "Para que serve o AWS Database Migration Service (DMS)?",
+    "answer": "Migrar bancos de dados para a AWS, mantendo a origem e o destino sincronizados durante o processo."
+  },
+  {
+    "question": "O que é o AWS Application Discovery Service?",
+    "answer": "Coletar informações sobre servidores e aplicações existentes para apoiar o planejamento de migrações."
+  },
+  {
+    "question": "O que é o AWS DataSync?",
+    "answer": "Serviço que automatiza e acelera a transferência de dados entre ambientes locais e serviços de armazenamento AWS."
+  },
+  {
+    "question": "O que é o AWS Snow Family?",
+    "answer": "Família de dispositivos físicos usada para coletar, processar e transferir grandes volumes de dados."
+  },
+  {
+    "question": "Quando utilizar dispositivos AWS Snowball?",
+    "answer": "Quando é necessário transferir grandes volumes de dados para a AWS usando dispositivos físicos."
+  },
+  {
+    "question": "O que é o AWS IoT Core?",
+    "answer": "Serviço que conecta dispositivos IoT à nuvem AWS e permite comunicação segura entre eles."
+  },
+  {
+    "question": "O que é o Amazon SageMaker?",
+    "answer": "Plataforma para desenvolver, treinar e implantar modelos de machine learning."
+  },
+  {
+    "question": "O que é o Amazon Bedrock?",
+    "answer": "Serviço que permite criar aplicações de IA generativa usando modelos de base por meio de APIs."
+  },
+  {
+    "question": "Para que serve o Amazon Comprehend?",
+    "answer": "Analisar textos usando processamento de linguagem natural, identificando informações e sentimentos."
+  },
+  {
+    "question": "Para que serve o Amazon Translate?",
+    "answer": "Traduzir textos automaticamente entre diferentes idiomas."
+  },
+  {
+    "question": "Para que serve o Amazon Lex?",
+    "answer": "Criar interfaces conversacionais e chatbots com reconhecimento de linguagem natural."
+  },
+  {
+    "question": "Para que serve o Amazon Forecast?",
+    "answer": "Gerar previsões de séries temporais usando machine learning."
+  },
+  {
+    "question": "O que é machine learning?",
+    "answer": "Área da inteligência artificial que permite a sistemas identificar padrões e aprender com dados."
+  },
+  {
+    "question": "O que é inteligência artificial generativa?",
+    "answer": "Tecnologia capaz de produzir conteúdo, como textos, imagens e código, a partir de instruções."
+  },
+  {
+    "question": "O que é o Amazon Textract?",
+    "answer": "Serviço que extrai texto, tabelas e informações de documentos digitalizados."
+  },
+  {
+    "question": "Qual serviço AWS pode identificar objetos e cenas em imagens?",
+    "answer": "Amazon Rekognition."
+  },
+  {
+    "question": "Qual serviço AWS pode identificar sentimentos em textos?",
+    "answer": "Amazon Comprehend."
+  },
+  {
+    "question": "O que é o Amazon WorkSpaces?",
+    "answer": "Serviço de desktop virtual gerenciado na nuvem."
+  },
+  {
+    "question": "O que é o Amazon AppStream 2.0?",
+    "answer": "Serviço que transmite aplicações de desktop para usuários por meio de um navegador."
+  },
+  {
+    "question": "O que é o AWS Marketplace?",
+    "answer": "Catálogo digital para encontrar, comprar e implantar softwares e serviços de terceiros na AWS."
+  },
+  {
+    "question": "O que é o AWS SDK?",
+    "answer": "Conjunto de ferramentas e bibliotecas que permite integrar aplicações aos serviços AWS por meio de código."
+  }
+]

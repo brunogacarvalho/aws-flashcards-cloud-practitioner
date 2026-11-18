@@ -1,0 +1,275 @@
+
+[
+  {
+    "question": "O que é computação em nuvem?",
+    "answer": "Entrega de recursos de TI sob demanda pela internet, com pagamento conforme o uso."
+  },
+  {
+    "question": "Quais são os três principais modelos de serviço em nuvem?",
+    "answer": "IaaS (infraestrutura), PaaS (plataforma) e SaaS (software)."
+  },
+  {
+    "question": "O que caracteriza o modelo IaaS?",
+    "answer": "O cliente provisiona recursos como servidores, armazenamento e redes, mantendo controle sobre o sistema operacional e aplicações."
+  },
+  {
+    "question": "O que caracteriza o modelo PaaS?",
+    "answer": "O provedor gerencia a infraestrutura e a plataforma, permitindo que o cliente se concentre no desenvolvimento de aplicações."
+  },
+  {
+    "question": "O que caracteriza o modelo SaaS?",
+    "answer": "O cliente utiliza um software pronto, gerenciado pelo provedor, geralmente acessado pela internet."
+  },
+  {
+    "question": "O que é uma região AWS?",
+    "answer": "Uma área geográfica que contém várias zonas de disponibilidade."
+  },
+  {
+    "question": "O que é uma Zona de Disponibilidade (AZ)?",
+    "answer": "Um ou mais data centers isolados, com energia, rede e conectividade redundantes, dentro de uma região."
+  },
+  {
+    "question": "Qual é a diferença entre região e Zona de Disponibilidade?",
+    "answer": "Região é uma área geográfica; AZ é uma localização isolada dentro dessa região."
+  },
+  {
+    "question": "O que são pontos de presença (Points of Presence) da AWS?",
+    "answer": "Locais de infraestrutura usados para aproximar conteúdo e serviços dos usuários, reduzindo a latência."
+  },
+  {
+    "question": "Qual é o principal objetivo da alta disponibilidade?",
+    "answer": "Manter aplicações e serviços funcionando, mesmo diante de falhas em componentes."
+  },
+  {
+    "question": "O que é escalabilidade na nuvem?",
+    "answer": "Capacidade de aumentar ou reduzir recursos para acompanhar mudanças na demanda."
+  },
+  {
+    "question": "Qual é a diferença entre escalabilidade vertical e horizontal?",
+    "answer": "Vertical aumenta a capacidade de uma máquina; horizontal adiciona ou remove instâncias."
+  },
+  {
+    "question": "O que é elasticidade na computação em nuvem?",
+    "answer": "Ajuste automático ou dinâmico dos recursos conforme a demanda."
+  },
+  {
+    "question": "O que significa agilidade na nuvem?",
+    "answer": "Provisionar e disponibilizar recursos de TI rapidamente, sem longos processos de aquisição."
+  },
+  {
+    "question": "O que é o modelo de pagamento conforme o uso?",
+    "answer": "Pagar pelos recursos consumidos, evitando investimentos antecipados em infraestrutura."
+  },
+  {
+    "question": "O que é CapEx?",
+    "answer": "Despesas de capital, como investimentos antecipados na compra de servidores e equipamentos."
+  },
+  {
+    "question": "O que é OpEx?",
+    "answer": "Despesas operacionais, como pagamentos recorrentes pelos serviços utilizados."
+  },
+  {
+    "question": "Como a nuvem pode reduzir custos de infraestrutura?",
+    "answer": "Reduzindo investimentos iniciais, custos de manutenção e necessidade de manter capacidade ociosa."
+  },
+  {
+    "question": "O que é uma arquitetura tolerante a falhas?",
+    "answer": "Uma arquitetura projetada para continuar operando mesmo quando componentes apresentam falhas."
+  },
+  {
+    "question": "O que é o AWS Well-Architected Framework?",
+    "answer": "Um conjunto de orientações para projetar e avaliar arquiteturas seguindo seis pilares de boas práticas."
+  },
+  {
+    "question": "O que significa economia de escala na AWS?",
+    "answer": "A AWS obtém custos menores por operar infraestrutura em grande escala e pode repassar essa economia aos clientes."
+  },
+  {
+    "question": "Qual é a vantagem de substituir custos fixos por custos variáveis?",
+    "answer": "A empresa passa a pagar conforme a necessidade, reduzindo gastos com capacidade não utilizada."
+  },
+  {
+    "question": "O que significa abandonar o planejamento de capacidade antecipado na nuvem?",
+    "answer": "Provisionar recursos conforme a demanda, sem precisar prever toda a capacidade com antecedência."
+  },
+  {
+    "question": "Como a infraestrutura global da AWS beneficia empresas?",
+    "answer": "Permite disponibilizar aplicações em diferentes regiões e aproximar serviços de usuários no mundo todo."
+  },
+  {
+    "question": "Como a nuvem AWS acelera a inovação?",
+    "answer": "Permite experimentar tecnologias e lançar recursos rapidamente, sem comprar infraestrutura física."
+  },
+  {
+    "question": "Qual é a vantagem de provisionar recursos sob demanda?",
+    "answer": "Disponibilizar capacidade quando necessário, sem esperar pela compra e instalação de equipamentos."
+  },
+  {
+    "question": "O que é redundância em uma arquitetura de nuvem?",
+    "answer": "Manter componentes ou recursos duplicados para reduzir o impacto de falhas."
+  },
+  {
+    "question": "Por que distribuir aplicações entre várias Zonas de Disponibilidade?",
+    "answer": "Para reduzir o risco de indisponibilidade causado por falhas em uma única zona."
+  },
+  {
+    "question": "O que é o pilar de excelência operacional do Well-Architected Framework?",
+    "answer": "Capacidade de executar e monitorar sistemas, melhorando processos continuamente."
+  },
+  {
+    "question": "O que é o pilar de segurança do Well-Architected Framework?",
+    "answer": "Proteção de sistemas, dados e recursos por meio de práticas de segurança."
+  },
+  {
+    "question": "O que é o pilar de confiabilidade do Well-Architected Framework?",
+    "answer": "Capacidade de um sistema se recuperar de falhas e atender à demanda de forma consistente."
+  },
+  {
+    "question": "O que é o pilar de eficiência de desempenho?",
+    "answer": "Uso eficiente dos recursos computacionais para atender aos requisitos do sistema."
+  },
+  {
+    "question": "O que é o pilar de otimização de custos?",
+    "answer": "Evitar gastos desnecessários e utilizar os recursos de forma financeiramente eficiente."
+  },
+  {
+    "question": "O que é o pilar de sustentabilidade?",
+    "answer": "Reduzir os impactos ambientais da execução de workloads na nuvem."
+  },
+  {
+    "question": "Qual pilar do Well-Architected trata da recuperação após falhas?",
+    "answer": "Confiabilidade."
+  },
+  {
+    "question": "Qual pilar do Well-Architected prioriza evitar desperdícios financeiros?",
+    "answer": "Otimização de custos."
+  },
+  {
+    "question": "Qual pilar do Well-Architected está relacionado à melhoria contínua dos processos?",
+    "answer": "Excelência operacional."
+  },
+  {
+    "question": "Qual pilar do Well-Architected considera o impacto ambiental dos recursos?",
+    "answer": "Sustentabilidade."
+  },
+  {
+    "question": "O que é o AWS Cloud Adoption Framework (AWS CAF)?",
+    "answer": "Uma estrutura de orientações para ajudar organizações a planejar e realizar sua adoção da nuvem."
+  },
+  {
+    "question": "Qual é o objetivo do AWS Cloud Adoption Framework?",
+    "answer": "Ajudar empresas a alinhar pessoas, processos e tecnologia durante a transformação para a nuvem."
+  },
+  {
+    "question": "Quais são as seis perspectivas do AWS Cloud Adoption Framework?",
+    "answer": "Negócios, pessoas, governança, plataforma, segurança e operações."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de negócios do AWS CAF?",
+    "answer": "Relacionar a adoção da nuvem aos resultados e objetivos comerciais da organização."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de pessoas do AWS CAF?",
+    "answer": "Preparar equipes, desenvolver competências e promover mudanças organizacionais."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de governança do AWS CAF?",
+    "answer": "Orientar decisões, políticas e controles para alcançar os objetivos da organização."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de plataforma do AWS CAF?",
+    "answer": "Projetar, implementar e otimizar a infraestrutura e os serviços tecnológicos."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de segurança do AWS CAF?",
+    "answer": "Organizar práticas para proteger dados, sistemas e ambientes em nuvem."
+  },
+  {
+    "question": "Qual é o foco da perspectiva de operações do AWS CAF?",
+    "answer": "Garantir a operação, o monitoramento e a manutenção dos ambientes em nuvem."
+  },
+  {
+    "question": "O que significa migrar uma aplicação para a nuvem?",
+    "answer": "Transferir aplicações, dados ou workloads de um ambiente existente para a infraestrutura em nuvem."
+  },
+  {
+    "question": "Qual é um benefício da migração para a nuvem AWS?",
+    "answer": "Ganhar agilidade, flexibilidade e acesso a serviços gerenciados."
+  },
+  {
+    "question": "O que é a estratégia de migração Rehost?",
+    "answer": "Transferir uma aplicação para a nuvem sem alterações significativas, também conhecida como lift and shift."
+  },
+  {
+    "question": "O que é a estratégia de migração Replatform?",
+    "answer": "Migrar uma aplicação realizando algumas otimizações, sem alterar sua arquitetura principal."
+  },
+  {
+    "question": "O que é a estratégia de migração Refactor?",
+    "answer": "Modificar ou redesenhar uma aplicação para aproveitar melhor os recursos nativos da nuvem."
+  },
+  {
+    "question": "O que é a estratégia de migração Repurchase?",
+    "answer": "Substituir uma aplicação existente por outro produto, geralmente uma solução SaaS."
+  },
+  {
+    "question": "O que é a estratégia de migração Retire?",
+    "answer": "Desativar aplicações que não são mais necessárias para a organização."
+  },
+  {
+    "question": "O que é a estratégia de migração Retain?",
+    "answer": "Manter determinadas aplicações no ambiente atual, sem migrá-las naquele momento."
+  },
+  {
+    "question": "O que é a estratégia de migração Relocate?",
+    "answer": "Mover uma infraestrutura ou conjunto de servidores para a nuvem sem redesenhar as aplicações."
+  },
+  {
+    "question": "O que é replicação de banco de dados durante uma migração?",
+    "answer": "Copiar continuamente dados entre bancos de dados para manter as informações sincronizadas."
+  },
+  {
+    "question": "Por que uma empresa pode migrar bancos de dados para a AWS?",
+    "answer": "Para reduzir a manutenção da infraestrutura e aproveitar serviços de banco de dados gerenciados."
+  },
+  {
+    "question": "O que é custo total de propriedade (TCO)?",
+    "answer": "Estimativa de todos os custos envolvidos na aquisição, operação e manutenção de uma solução."
+  },
+  {
+    "question": "Por que comparar o TCO antes de migrar para a nuvem?",
+    "answer": "Para avaliar os custos do ambiente atual em relação aos custos estimados na nuvem."
+  },
+  {
+    "question": "Quais custos podem existir em um ambiente de TI local (on-premises)?",
+    "answer": "Servidores, energia, refrigeração, espaço físico, manutenção e equipe técnica."
+  },
+  {
+    "question": "O que significa dimensionamento correto (rightsizing) na nuvem?",
+    "answer": "Escolher recursos com capacidade adequada à carga de trabalho, evitando excesso ou insuficiência."
+  },
+  {
+    "question": "Como a automação pode reduzir custos na nuvem?",
+    "answer": "Reduzindo tarefas manuais e permitindo ajustar ou desligar recursos quando não são necessários."
+  },
+  {
+    "question": "O que significa BYOL (Bring Your Own License)?",
+    "answer": "Utilizar licenças de software que a empresa já possui em vez de adquirir novas licenças incluídas."
+  },
+  {
+    "question": "Qual é a diferença entre BYOL e licença incluída?",
+    "answer": "BYOL utiliza uma licença própria; a licença incluída já faz parte do custo do serviço ou recurso."
+  },
+  {
+    "question": "Como a nuvem pode transformar despesas de capital em despesas operacionais?",
+    "answer": "Substituindo a compra antecipada de equipamentos por pagamentos recorrentes pelos recursos utilizados."
+  },
+  {
+    "question": "Qual é o benefício financeiro de aumentar ou reduzir recursos conforme a demanda?",
+    "answer": "Evitar pagar por capacidade ociosa e acompanhar melhor as necessidades reais da aplicação."
+  },
+  {
+    "question": "Como a AWS pode ajudar a reduzir o tempo de lançamento de produtos?",
+    "answer": "Disponibilizando infraestrutura e serviços rapidamente, sem depender da aquisição de hardware."
+  }
+]

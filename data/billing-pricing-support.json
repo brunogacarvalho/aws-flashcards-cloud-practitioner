@@ -1,0 +1,283 @@
+
+[
+  {
+    "question": "Qual é a principal ferramenta para estimar custos de serviços AWS antes de utilizá-los?",
+    "answer": "AWS Pricing Calculator."
+  },
+  {
+    "question": "Qual ferramenta permite visualizar e analisar os gastos reais da conta AWS?",
+    "answer": "AWS Cost Explorer."
+  },
+  {
+    "question": "Qual serviço alerta quando os custos ou o uso ultrapassam limites definidos?",
+    "answer": "AWS Budgets."
+  },
+  {
+    "question": "Qual ferramenta fornece recomendações para otimizar custos na AWS?",
+    "answer": "AWS Cost Optimization Hub."
+  },
+  {
+    "question": "O que é o modelo de pagamento sob demanda?",
+    "answer": "Pagar pelos recursos utilizados, sem compromisso de longo prazo."
+  },
+  {
+    "question": "O que são Savings Plans?",
+    "answer": "Modelos de economia que oferecem preços menores mediante compromisso de uso por um período."
+  },
+  {
+    "question": "O que são Reserved Instances?",
+    "answer": "Opções de contratação com compromisso de prazo que podem reduzir custos em serviços compatíveis, como EC2 e RDS."
+  },
+  {
+    "question": "Qual opção é mais indicada para cargas de trabalho flexíveis e sem compromisso de longo prazo?",
+    "answer": "Instâncias On-Demand."
+  },
+  {
+    "question": "O que são instâncias Spot do Amazon EC2?",
+    "answer": "Capacidade EC2 excedente oferecida com descontos, sujeita a interrupções pela AWS."
+  },
+  {
+    "question": "Qual opção pode reduzir custos em cargas tolerantes a interrupções?",
+    "answer": "Instâncias Spot do Amazon EC2."
+  },
+  {
+    "question": "Qual é a função do AWS Free Tier?",
+    "answer": "Permitir experimentar serviços AWS gratuitamente dentro de limites e condições específicas."
+  },
+  {
+    "question": "O que é o AWS Organizations?",
+    "answer": "Serviço para gerenciar centralmente várias contas AWS."
+  },
+  {
+    "question": "Qual é a função da conta de gerenciamento no AWS Organizations?",
+    "answer": "Administrar a organização e suas contas, incluindo recursos de cobrança consolidada."
+  },
+  {
+    "question": "O que é cobrança consolidada?",
+    "answer": "Reunir as cobranças de várias contas AWS em uma única conta pagadora."
+  },
+  {
+    "question": "Qual ferramenta apresenta informações detalhadas sobre a fatura AWS?",
+    "answer": "AWS Billing and Cost Management."
+  },
+  {
+    "question": "Qual plano de suporte AWS oferece recomendações personalizadas para arquitetura e operações?",
+    "answer": "AWS Business Support, conforme os recursos incluídos no plano."
+  },
+  {
+    "question": "Qual serviço permite consultar recomendações de boas práticas e otimização da conta?",
+    "answer": "AWS Trusted Advisor."
+  },
+  {
+    "question": "Qual serviço AWS oferece orientações sobre arquitetura seguindo boas práticas?",
+    "answer": "AWS Well-Architected Tool."
+  },
+  {
+    "question": "Qual recurso oferece acesso a especialistas AWS para questões técnicas e comerciais?",
+    "answer": "AWS Support, conforme o plano contratado."
+  },
+  {
+    "question": "Qual é a diferença entre AWS Pricing Calculator e AWS Cost Explorer?",
+    "answer": "Pricing Calculator estima custos futuros; Cost Explorer analisa gastos e uso registrados."
+  },
+  {
+    "question": "O que são etiquetas de alocação de custos (Cost Allocation Tags)?",
+    "answer": "Tags usadas para organizar e atribuir custos a projetos, equipes ou departamentos."
+  },
+  {
+    "question": "O que são AWS Cost Categories?",
+    "answer": "Categorias que agrupam custos em estruturas personalizadas para análise financeira."
+  },
+  {
+    "question": "Qual é a finalidade do AWS Cost and Usage Report?",
+    "answer": "Fornecer dados detalhados sobre custos e uso dos serviços AWS."
+  },
+  {
+    "question": "O que é AWS Data Exports?",
+    "answer": "Recurso para exportar dados de custos e uso da AWS para análise."
+  },
+  {
+    "question": "Para que serve o AWS Billing Conductor?",
+    "answer": "Criar visualizações personalizadas de faturamento para grupos de contas."
+  },
+  {
+    "question": "O que é o custo total de propriedade (TCO)?",
+    "answer": "Estimativa de todos os custos envolvidos na aquisição, operação e manutenção de uma solução."
+  },
+  {
+    "question": "Qual ferramenta ajuda a comparar os custos de infraestrutura local com a AWS?",
+    "answer": "AWS Migration Evaluator."
+  },
+  {
+    "question": "O que significa otimização de custos na AWS?",
+    "answer": "Reduzir gastos desnecessários mantendo os requisitos de desempenho e operação."
+  },
+  {
+    "question": "Qual prática ajuda a reduzir custos de instâncias EC2 subutilizadas?",
+    "answer": "Redimensionar as instâncias conforme a necessidade real."
+  },
+  {
+    "question": "Qual serviço recomenda recursos AWS mais adequados para cargas de trabalho?",
+    "answer": "AWS Compute Optimizer."
+  },
+  {
+    "question": "O que é o AWS Cost Optimization Hub?",
+    "answer": "Centraliza recomendações de economia de custos em diferentes contas e regiões."
+  },
+  {
+    "question": "Como o desligamento de recursos ociosos pode reduzir custos?",
+    "answer": "Evita cobranças por recursos que não estão sendo utilizados."
+  },
+  {
+    "question": "Como políticas de ciclo de vida do Amazon S3 ajudam a economizar?",
+    "answer": "Movem ou removem objetos automaticamente conforme regras definidas."
+  },
+  {
+    "question": "Como o armazenamento em camadas pode reduzir custos?",
+    "answer": "Direciona dados para classes de armazenamento mais econômicas conforme a frequência de acesso."
+  },
+  {
+    "question": "O que é o pagamento por volume na AWS?",
+    "answer": "Preços que podem diminuir conforme aumenta o volume de uso de determinados serviços."
+  },
+  {
+    "question": "Quais são os principais fatores que influenciam o preço de uma instância EC2?",
+    "answer": "Tipo, região, sistema operacional, modelo de compra e duração do uso."
+  },
+  {
+    "question": "O que são Dedicated Hosts?",
+    "answer": "Servidores físicos dedicados a um único cliente, com controle sobre a alocação de instâncias."
+  },
+  {
+    "question": "O que são EC2 Capacity Reservations?",
+    "answer": "Reservas de capacidade EC2 para garantir disponibilidade em uma zona de disponibilidade específica."
+  },
+  {
+    "question": "Qual é a diferença entre Savings Plans e instâncias Spot?",
+    "answer": "Savings Plans exigem compromisso de gasto; Spot usa capacidade excedente sujeita a interrupções."
+  },
+  {
+    "question": "Quais são os principais tipos de Savings Plans?",
+    "answer": "Compute Savings Plans, EC2 Instance Savings Plans e SageMaker Savings Plans."
+  },
+  {
+    "question": "Qual é a principal característica do Compute Savings Plans?",
+    "answer": "Oferece flexibilidade entre tipos de instância, regiões e serviços de computação compatíveis."
+  },
+  {
+    "question": "Qual é a principal característica do EC2 Instance Savings Plans?",
+    "answer": "Oferece economia vinculada a uma família de instâncias EC2 em uma região."
+  },
+  {
+    "question": "O que acontece quando uma instância Spot é interrompida?",
+    "answer": "A AWS pode interromper a capacidade, permitindo encerramento, parada ou hibernação conforme configuração."
+  },
+  {
+    "question": "Qual modelo de compra é mais indicado para cargas previsíveis e contínuas?",
+    "answer": "Savings Plans ou Reserved Instances, conforme o serviço e a necessidade."
+  },
+  {
+    "question": "O que é o AWS Basic Support?",
+    "answer": "Plano básico que oferece acesso a documentação, whitepapers, fóruns e suporte para questões relacionadas à conta e faturamento."
+  },
+  {
+    "question": "O que caracteriza os planos pagos de suporte AWS?",
+    "answer": "Oferecem diferentes níveis de assistência técnica, orientação e tempos de resposta."
+  },
+  {
+    "question": "Qual é a finalidade do AWS Support Center?",
+    "answer": "Criar e acompanhar casos de suporte com a AWS."
+  },
+  {
+    "question": "O que é o AWS re:Post?",
+    "answer": "Comunidade de perguntas e respostas para dúvidas sobre serviços e tecnologias AWS."
+  },
+  {
+    "question": "Qual é a diferença entre AWS Health Dashboard e AWS Personal Health Dashboard?",
+    "answer": "O Health Dashboard mostra eventos gerais; o Personal Health Dashboard apresenta eventos relevantes para a conta."
+  },
+  {
+    "question": "O que é um Technical Account Manager (TAM)?",
+    "answer": "Especialista que oferece orientação técnica e ajuda a alinhar soluções AWS aos objetivos do cliente."
+  },
+  {
+    "question": "O que é o AWS Concierge Support?",
+    "answer": "Serviço de suporte especializado em questões de faturamento e gerenciamento de contas, conforme o plano contratado."
+  },
+  {
+    "question": "Qual é a função do AWS Trusted Advisor na otimização de custos?",
+    "answer": "Identificar oportunidades de economia e recursos que podem estar sendo subutilizados."
+  },
+  {
+    "question": "Quais são algumas categorias de verificações do AWS Trusted Advisor?",
+    "answer": "Otimização de custos, segurança, tolerância a falhas, desempenho e limites de serviço."
+  },
+  {
+    "question": "O que é transferência de dados (Data Transfer) na cobrança AWS?",
+    "answer": "Cobranças que podem ocorrer pela movimentação de dados entre serviços, regiões ou para a internet."
+  },
+  {
+    "question": "A transferência de dados entre zonas de disponibilidade pode gerar custos?",
+    "answer": "Sim. Alguns serviços cobram pela transferência de dados entre zonas de disponibilidade."
+  },
+  {
+    "question": "O uso de serviços AWS em regiões diferentes pode alterar os custos?",
+    "answer": "Sim. Os preços variam conforme a região e o serviço utilizado."
+  },
+  {
+    "question": "O que é uma fatura AWS?",
+    "answer": "Documento que detalha os valores cobrados pelos serviços utilizados durante um período."
+  },
+  {
+    "question": "Onde o usuário pode consultar pagamentos e faturas da AWS?",
+    "answer": "No console AWS Billing and Cost Management."
+  },
+  {
+    "question": "Qual recurso permite receber alertas sobre anomalias nos gastos AWS?",
+    "answer": "AWS Cost Anomaly Detection."
+  },
+  {
+    "question": "Qual é a função do AWS Cost Anomaly Detection?",
+    "answer": "Detectar padrões incomuns de gastos e enviar alertas para investigação."
+  },
+  {
+    "question": "O que são créditos promocionais AWS?",
+    "answer": "Créditos que podem ser aplicados a cobranças elegíveis conforme os termos de utilização."
+  },
+  {
+    "question": "O que é o AWS Marketplace?",
+    "answer": "Catálogo de soluções de software de terceiros que podem ser adquiridas e executadas na AWS."
+  },
+  {
+    "question": "Como compras pelo AWS Marketplace podem aparecer na cobrança?",
+    "answer": "Podem ser incluídas na fatura AWS, conforme o produto e as condições de compra."
+  },
+  {
+    "question": "O que é o AWS Free Tier e por que é importante acompanhar seu uso?",
+    "answer": "Oferece benefícios gratuitos ou créditos dentro de condições específicas; o uso excedente pode gerar cobranças."
+  },
+  {
+    "question": "Qual é a relação entre AWS Organizations e cobrança consolidada?",
+    "answer": "A organização reúne contas e permite consolidar cobranças e acompanhar custos centralmente."
+  },
+  {
+    "question": "O que são descontos por compromisso de uso?",
+    "answer": "Reduções de preço concedidas em troca de um compromisso de utilização por determinado período."
+  },
+  {
+    "question": "Qual é a principal diferença entre custo fixo e custo variável na nuvem?",
+    "answer": "Custos fixos permanecem relativamente estáveis; custos variáveis acompanham o consumo."
+  },
+  {
+    "question": "Como a elasticidade da nuvem pode ajudar na redução de custos?",
+    "answer": "Permite ajustar recursos à demanda e evitar manter capacidade ociosa."
+  },
+  {
+    "question": "Qual é o objetivo da gestão financeira em nuvem (Cloud Financial Management)?",
+    "answer": "Monitorar, controlar e otimizar os gastos com serviços em nuvem."
+  },
+  {
+    "question": "O que é FinOps?",
+    "answer": "Prática que aproxima tecnologia, finanças e negócios para gerenciar e otimizar custos na nuvem."
+  }
+]
