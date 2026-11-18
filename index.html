@@ -1,215 +1,34 @@
+<header class="app-header">
+    <div class="brand">
+        <div class="brand-mark">AWS</div>
+        <div class="brand-info">
+            <div class="brand-name">AWS Cloud Practitioner</div>
+            <div class="brand-subtitle">FLASHCARDS DE ESTUDO</div>
+        </div>
+    </div>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#101820">
+    <div class="header-meta">
+        <span class="exam-tag">CLF-C02</span>
+        <span class="independent-label">Material independente de estudo</span>
+    </div>
 
-    <title>AWS Cloud Practitioner - Flash Cards</title>
+    <div class="welcome">
+        <span class="eyebrow">AWS CERTIFIED CLOUD PRACTITIONER</span>
+        <h1>Seu espaço de estudo.</h1>
+        <p>Aprenda, revise e acompanhe sua evolução nos fundamentos da AWS.</p>
+    </div>
 
-    <meta name="description"
-        content="Plataforma de flashcards para estudar para a certificação AWS Cloud Practitioner CLF-C02.">
-
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="stylesheet" href="assets/css/style.css">
-<script src="assets/js/app.js" defer></script>
-</head>
-
-<body>
-    <main class="app-shell">
-
-        <header class="app-header">
-<div class="brand">
-                <div class="brand-mark">AWS</div>
-                <div>
-<h1>                    <div class="brand-name">AWS Cloud Practitioner</div> </h1>
-<p>                    <div class="brand-subtitle">Flashcards de estudo para a certificação AWS Cer>
-                </div>
-            </div>
-
-            <div class="welcome">
-                <div>
-                    <h1>Seu espaço de estudo.</h1>
-                    <p>Aprenda, revise e acompanhe sua evolução nos fundamentos da AWS.</p>
-                </div>
-            </div>
-
-            <div class="overall-progress">
-                <div class="progress-heading">
-                    <span>Progresso geral</span>
-                    <strong id="overall-progress-label">0%</strong>
-                </div>
-                <div class="progress-track">
-                    <div id="overall-progress-bar" class="progress-fill"></div>
-                </div>
-                <div class="progress-foot">
-                    <span id="overall-studied">0 de 0 cartões estudados</span>
-                    <span id="overall-known">0 dominados</span>
-                </div>
-            </div>
-        </header>
-
-        <section class="domain-section">
-            <div class="section-title">
-                <div>
-                    <span class="eyebrow">CONTEÚDO DA CERTIFICAÇÃO</span>
-                    <h2>Domínios de estudo</h2>
-                </div>
-                <span class="section-note">4 domínios</span>
-            </div>
-
-            <nav class="domain-grid" aria-label="Domínios da certificação">
-
-                <button class="domain-card active" data-domain="cloud-concepts">
-                    <span class="domain-number">01</span>
-                    <span class="domain-name">Conceitos da nuvem</span>
-                    <span class="domain-detail">Cloud Concepts</span>
-                    <span class="domain-progress-text" data-domain-count="cloud-concepts">0 / 20 estudados</span>
-                    <span class="mini-progress">
-                        <span data-domain-progress="cloud-concepts"></span>
-                    </span>
-                </button>
-
-                <button class="domain-card" data-domain="security-compliance">
-                    <span class="domain-number">02</span>
-                    <span class="domain-name">Segurança e conformidade</span>
-                    <span class="domain-detail">Security and Compliance</span>
-                    <span class="domain-progress-text" data-domain-count="security-compliance">0 / 20 estudados</span>
-                    <span class="mini-progress">
-                        <span data-domain-progress="security-compliance"></span>
-                    </span>
-                </button>
-
-                <button class="domain-card" data-domain="cloud-technology-services">
-                    <span class="domain-number">03</span>
-                    <span class="domain-name">Tecnologia e serviços</span>
-                    <span class="domain-detail">Cloud Technology and Services</span>
-                    <span class="domain-progress-text" data-domain-count="cloud-technology-services">0 / 30 estudados</span>
-                    <span class="mini-progress">
-                        <span data-domain-progress="cloud-technology-services"></span>
-                    </span>
-                </button>
-
-                <button class="domain-card" data-domain="billing-pricing-support">
-                    <span class="domain-number">04</span>
-                    <span class="domain-name">Cobrança, preços e suporte</span>
-                    <span class="domain-detail">Billing, Pricing and Support</span>
-                    <span class="domain-progress-text" data-domain-count="billing-pricing-support">0 / 20 estudados</span>
-                    <span class="mini-progress">
-                        <span data-domain-progress="billing-pricing-support"></span>
-                    </span>
-                </button>
-
-            </nav>
-        </section>
-
-        <section class="study-section">
-            <div class="study-heading">
-                <div>
-                    <span class="eyebrow">ÁREA DE APRENDIZAGEM</span>
-                    <h2 id="domain-title">Conceitos da nuvem</h2>
-                    <p id="domain-description">Revise os principais fundamentos da computação em nuvem.</p>
-                </div>
-
-                <button id="shuffle-button" class="text-button">
-                    <span>⤨</span> Embaralhar
-                </button>
-            </div>
-
-            <div class="study-controls">
-                <div class="filter-group">
-                    <label for="card-filter">Exibir cartões</label>
-                    <select id="card-filter">
-                        <option value="all">Todos os cartões</option>
-                        <option value="new">Não estudados</option>
-                        <option value="difficult">Difíceis</option>
-                        <option value="known">Dominados</option>
-                    </select>
-                </div>
-
-                <div class="card-counter">
-                    <span id="current-card">1</span>
-                    <span class="counter-separator">/</span>
-                    <span id="total-cards">20</span>
-                    <span class="counter-caption">cartão</span>
-                </div>
-            </div>
-
-            <article class="flashcard" id="flashcard" aria-live="polite">
-                <div class="card-topline">
-                    <span id="card-label">PERGUNTA</span>
-                    <span id="card-status-label">NOVO</span>
-                </div>
-
-                <div class="card-content">
-                    <span class="question-mark">Q.</span>
-                    <h3 id="card-question">Carregando cartões...</h3>
-
-                    <div id="card-answer" class="card-answer" hidden>
-                        <div class="answer-divider"></div>
-                        <span class="answer-heading">RESPOSTA</span>
-                        <p id="answer-text"></p>
-                    </div>
-                </div>
-
-                <div class="card-bottom">
-                    <span>CLF-C02 <span class="dot">·</span> FLASHCARDS</span>
-                    <span id="card-domain-label">CONCEITOS DA NUVEM</span>
-                </div>
-            </article>
-
-            <div class="reveal-area">
-                <button id="reveal-button" class="reveal-button">
-                    Revelar resposta
-                </button>
-            </div>
-
-            <div class="review-actions">
-                <span class="action-caption">Como você se saiu?</span>
-                <div class="review-buttons">
-                    <button id="difficult-button" class="review-button difficult">
-                        <span class="action-symbol">×</span>
-                        Preciso revisar
-                    </button>
-                    <button id="known-button" class="review-button known">
-                        <span class="action-symbol">✓</span>
-                        Já domino
-                    </button>
-                </div>
-            </div>
-
-            <div class="card-navigation">
-                <button id="previous-button" class="navigation-button">
-                    ← Anterior
-                </button>
-                <button id="next-button" class="navigation-button next">
-                    Próximo →
-                </button>
-            </div>
-        </section>
-
-        <section class="management-section">
-            <div>
-                <span class="management-title">Gerenciar progresso</span>
-                <p>Seu progresso é salvo automaticamente neste navegador.</p>
-            </div>
-
-            <div class="management-actions">
-                <button id="reset-domain-button" class="text-button">
-                    Reiniciar domínio
-                </button>
-                <button id="reset-all-button" class="text-button danger">
-                    Zerar todo o progresso
-                </button>
-            </div>
-        </section>
-
-        <footer class="app-footer">
-            <span>Cloud Study <span class="dot">·</span> CLF-C02</span>
-            <span>Material independente para fins educacionais. Não afiliado à AWS.</span>
-        </footer>
-
-    </main>
-</body>
-</html>
+    <div class="overall-progress">
+        <div class="progress-heading">
+            <span>Progresso geral</span>
+            <strong id="overall-progress-label">0%</strong>
+        </div>
+        <div class="progress-track">
+            <div class="progress-fill" id="overall-progress-bar"></div>
+        </div>
+        <div class="progress-foot">
+            <span id="overall-studied">0 de 350 cartões estudados</span>
+            <span id="overall-known">0 dominados</span>
+        </div>
+    </div>
+</header>
